@@ -1,0 +1,20 @@
+{
+  "applications": "*",
+  "changelogDate": "20231109155335",
+  "dto": "mapstruct",
+  "entityTableName": "livreur",
+  "fields": [
+    {
+      "fieldName": "commandePreparer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "adresseLivraison",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Livreur",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

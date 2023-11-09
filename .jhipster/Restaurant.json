@@ -1,0 +1,27 @@
+{
+  "applications": "*",
+  "changelogDate": "20231109155235",
+  "dto": "mapstruct",
+  "entityTableName": "restaurant",
+  "fields": [
+    {
+      "fieldName": "preparationCommande",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "heureDePreparation",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Restaurant",
+  "relationships": [
+    {
+      "otherEntityName": "livreur",
+      "relationshipName": "livreur",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

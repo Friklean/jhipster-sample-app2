@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20231109155035",
+  "dto": "mapstruct",
+  "entityTableName": "client",
+  "fields": [
+    {
+      "fieldName": "nom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prenom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "adresse",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codePostal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ville",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Client",
+  "relationships": [
+    {
+      "otherEntityName": "commande",
+      "relationshipName": "commande",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
