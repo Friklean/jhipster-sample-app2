@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20231109155135",
+  "dto": "mapstruct",
+  "entityTableName": "commande",
+  "fields": [
+    {
+      "fieldName": "listeArticle",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "heureDeCommande",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "paiement",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Commande",
+  "relationships": [
+    {
+      "otherEntityName": "restaurant",
+      "relationshipName": "restaurant",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
